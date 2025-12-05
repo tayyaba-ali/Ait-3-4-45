@@ -1,0 +1,46 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* h1 {
+    background-color: red;
+    color: white;
+}
+
+.icon {
+    display: none ;
+} */
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    h1 {
+        background-color: blue;
+      
+    }
+    .icon{
+        display: block;
+    }
+ 
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    h1 {
+        background-color: rgb(64, 165, 18);
+    }
+
+
+}

@@ -1,0 +1,61 @@
+/* type selector */
+/* p{
+    color: aqua;
+    background-color: blue;
+} */
+
+
+/* #para{
+    color: blueviolet;
+    background-color: rgb(161, 218, 16);
+}
+
+.abc{
+     color: rgb(10, 185, 89);
+    background-color: rgb(168, 5, 129);
+} */
+
+/* universal selector */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* #para {
+    color: rgb(16, 200, 77);
+    background-color: rgb(116, 7, 101);
+} */
+
+/* h1{
+    color: blueviolet;
+    background-color: chocolate;
+} */
+/* #container h1{
+    background-color: aquamarine;
+    color: blueviolet;
+} */
+
+/* h1+p {
+    color: blueviolet;
+    background-color: aquamarine;
+} */
+
+* {
+    color: aqua;
+    background-color: blue;
+}
+
+#head {
+    color: rgb(25, 14, 143);
+    background-color: rgb(71, 95, 17);
+}
+
+.heading{
+      color: rgb(22, 197, 51);
+    background-color: rgb(207, 130, 23);
+}
+
+h1 {
+    color: rgb(159, 12, 130) !important;
+    background-color: rgb(160, 13, 16);
+}

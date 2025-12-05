@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap'); */
+
+
+@font-face {
+    font-family: "FjallaOne";
+    src: url("./fonts/FjallaOne-Regular.ttf");
+}
+
+/* units */
+/* pixels % em rem  */
+/* p {
+    font-family: FjallaOne;
+    font-size: 5em ;   
+    font-weight: bold;
+} */
+
+#second {
+    font-weight: 700;
+    font-style: normal;
+    text-transform: lowercase;
+    /* line-height: 50px;
+  word-spacing: 10px;
+  letter-spacing: 10px; */
+    text-align: justify;
+}
+
+#second::first-letter {
+    font-size: 90px;
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+#specific {
+    font-size: 90px;
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: FjallaOne;
+    font-style: italic;
+    /* horizontal offset  vertical offset  blur color */
+    text-shadow: 2px 20px 1px red;
+    text-shadow: -53px -2px 8px rgba(45, 78, 213, 0.6);
+
+}

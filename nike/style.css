@@ -1,0 +1,303 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("./fonts/BebasNeue-Regular.ttf");
+}
+
+
+.bar {
+    display: none;
+}
+
+header {
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+    background-color: #fff9f4;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.logo span {
+    width: 100px;
+
+    font-family: Roboto;
+}
+
+.nike {
+    width: 300px;
+}
+
+.navlinks {
+    display: flex;
+
+    gap: 60px;
+}
+
+.navlinks li {
+    list-style: none;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .55);
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+#niketext {
+    color: #ff8367;
+}
+
+
+.shoe1 {
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.shoepic {
+    background: #F1F1F1;
+
+}
+
+.shoe1 .shoepic img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+.hero {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    padding: 10px 30px;
+    background-color: #fff9f4;
+}
+
+.bigShoe {
+    width: 40%;
+}
+
+.bigShoe img {
+    width: 100%;
+}
+
+.hero h1 {
+    font-family: Bebas;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.hero #first {
+    color: #ff8367;
+}
+
+.hero #second {
+    color: #363958;
+}
+
+.hero p {
+    color: #212529;
+    font-family: "Roboto";
+}
+
+.hero button {
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color: rgb(61, 79, 243);
+    padding: 10px;
+
+    text-transform: uppercase;
+    color: white;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.casual {
+    background-color: #E5E5E5;
+    padding: 20px 10px;
+}
+
+.shoes {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.shoe1 {
+    width: 30%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.shoe1 .shoePic {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.shoePic {
+    background-color: #E5E5E5;
+    border-radius: 10px;
+}
+
+.shoe1 .shoePic img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.shopping {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+
+.fit {
+    width: 40%;
+}
+
+.fit img {
+    width: 100%;
+}
+
+.shoppingcard1 {
+    display: flex;
+    background-color: white;
+    padding: 20px 30px;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    border-radius: 2px;
+
+}
+
+.shoppingcard1 div {
+    width: 20%;
+}
+
+.shoppingcard1 div img {
+    width: 100%;
+}
+
+.shoppingcard1 .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shoppingcard1 .content div {
+    width: 100%;
+}
+
+.shoppingCards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:480px) {
+    .navlinks {
+        display: none;
+    }
+
+    .bar {
+        display: block !important;
+    }
+
+    .logo {
+        width: 183px;
+    }
+
+    .bigShoe {
+        width: 100%;
+    }
+
+    .bigShoe img {
+        width: 100%;
+    }
+
+    .hero {
+        padding: 10px 30px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .hero button {
+        width: 50%;
+    }
+
+    .shoes {
+        flex-direction: column;
+
+    }
+
+    .shoe1 {
+        width: 100%;
+    }
+
+    .shopping {
+        flex-direction: column;
+        padding: 10px 30px;
+        gap: 30px;
+    }
+
+    .fit {
+        order: -1;
+        width: 100%;
+    }
+
+    .fit img {
+        width: 100%;
+    }
+}

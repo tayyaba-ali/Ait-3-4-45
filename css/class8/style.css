@@ -1,0 +1,46 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+
+}
+
+#child {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    bottom: 50%;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    right: 50%;
+} */
+
+/* static */
+/* relative */
+/* absolute */
+/* fixed */
+/* sticky */
+
+.container {
+    position: relative;
+    width: 184px;
+}
+
+.container>img {
+    width: 184px;
+}
+
+.noti {
+    background-color: red;
+    width: 18px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 23px;
+    right: 64px;
+}
